@@ -15,7 +15,7 @@ function App () {
       .then(res => res.json())
       .then(data => {
         const { fact } = data
-        setFact(fact.splice())
+        setFact(fact)
       })
   }, [])
 
